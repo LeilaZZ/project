@@ -66,7 +66,7 @@ To train and validate the model:
 - YOLOv8 folder
   - yolov8_BTD.ipynb: code to run YOLOv8 model for 30 epochs
   - yolov8_results.zip: a package of the evaluation results and graphs for the control and augmented datasets respectively
-- experimental trials folder
+- Experimental trials folder
   - Try_DETR.ipynb: tried to apply DETR to our project, but failed due to the requirement of a COCO dataset
 
 ### Kexuan Li
