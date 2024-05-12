@@ -33,7 +33,6 @@ To train and validate the model:
 !yolo task=detect mode=train model=yolov8m.pt data={Your Dataset Path}/data.yaml epochs=30 imgsz=416 optimizer='Adam' single_cls name=run
 ```
 
-### Data augmentation
 
 ## Major changes in the adapted code
 
@@ -54,6 +53,13 @@ To train and validate the model:
 - This code is original, written after reading the tutorials and the official guideline.
 
 ### Data augmentation
+- Incorporated code to apply to our datasets and models.
+- Create segmentation mask to enable copy-paste method.
+- Generated new bounding boxes for the sythetic brain.
+- Adjust functions to handle different image sizes.
+
+
+
 
 ## Contribution
 ### Zhichen Zhou
@@ -71,6 +77,7 @@ To train and validate the model:
   - Try_DETR.ipynb: tried to apply DETR to our project, but failed due to the requirement of a COCO dataset
 
 ### Kexuan Li
+- DataAugmentation.ipynd: code to generate the dataset_augmented zip
 
 ## Dataset
 ### Baseline dataset
