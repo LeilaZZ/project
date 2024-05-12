@@ -3,7 +3,7 @@
 In this project, we use yolov3, yolov7, and yolov8 to test how augmenting the dataset using copy-and-paste during the training process will enhance the model performance.
 
 ## Main Commands
-Please remember to set your dataset path before running each model.
+Please set your dataset path and modify the data.yaml file before running each model.
 
 ### YOLOv3
 There are two ways to run this code:
@@ -33,6 +33,8 @@ To train and validate the model:
 !yolo task=detect mode=train model=yolov8m.pt data={Your Dataset Path}/data.yaml epochs=30 imgsz=416 optimizer='Adam' single_cls name=run
 ```
 
+### Data augmentation
+
 ## Major changes in the adapted code
 
 ### YOLOv3
@@ -50,5 +52,43 @@ To train and validate the model:
 
 ### YOLOv8
 - This code is original, written after reading the tutorials and the official guideline.
+
+### Data augmentation
+
+## Contribution
+### Zhichen Zhou
+- YOLOv3 folder
+  - yolov3_BTD.ipynb: code to run YOLOv3 model for 5 epochs
+  - yolov3_results.zip: a package of the evaluation results and graphs for the control and augmented datasets respectively
+- YOLOv7 folder
+  - yolov7_BTD.ipynb: code to run YOLOv7 model for 30 epochs
+  - yolov7_results.zip: a package of the evaluation results and graphs for the control and augmented datasets respectively
+- YOLOv8 folder
+  - yolov8_BTD.ipynb: code to run YOLOv8 model for 30 epochs
+  - yolov8_results.zip: a package of the evaluation results and graphs for the control and augmented datasets respectively
+
+### Kexuan Li
+
+## Dataset
+### Baseline dataset
+https://www.kaggle.com/datasets/davidbroberts/brain-tumor-object-detection-datasets
+
+### Healthy brain dataset
+https://www.kaggle.com/datasets/sartajbhuvaji/brain-tumor-classification-mri
+
+## Citation
+### YOLOv3
+Adapted from: https://github.com/mr-ravin/Brain-Tumor-Detection-MRI-using-YOLO-v3-Pytorch
+
+### YOLOv7
+Adapted from: https://gist.github.com/melek227/80db855e32a7908fa8ba15957d146b28
+
+### YOLOv8
+Learning references: 
+- https://learnopencv.com/train-yolov8-on-custom-dataset/
+- https://docs.ultralytics.com/usage/cfg/
+
+### Data augmentation (copy-and-paste)
+
 
 
