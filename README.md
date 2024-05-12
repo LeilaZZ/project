@@ -8,7 +8,7 @@ Please set your dataset path and modify the data.yaml file before running each m
 ### YOLOv3
 There are two ways to run this code:
 - Method 1: Be sure to have the yolov3_terminal package in the google drive and keep the folder as the same structure. You can set the parameters and mode you want to use in the "Training the YOLOv3 model" and "Testing the YOLOv3 model" in the YOLOv3_BTD.ipynb file. Then, make sure to run every cells from the start.
-- Method 2: download the yolov3_terminal package, in the terminal, run the following codes to test and train.
+- Method 2: Download the yolov3_terminal package. Open the the terminal and set the directory to source_code folder. Then, run the following codes to test and train.
   ```
   python3 run.py --mode train --epoch 5
   ```
@@ -59,6 +59,7 @@ To train and validate the model:
 ### Zhichen Zhou
 - YOLOv3 folder
   - yolov3_BTD.ipynb: code to run YOLOv3 model for 5 epochs
+  - yolov3_terminal.zip: a package to be downloaded or uploaded to Google Drive in the correct directory structure
   - yolov3_results.zip: a package of the evaluation results and graphs for the control and augmented datasets respectively
 - YOLOv7 folder
   - yolov7_BTD.ipynb: code to run YOLOv7 model for 30 epochs
