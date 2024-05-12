@@ -86,7 +86,7 @@ Adapted from: https://github.com/mr-ravin/Brain-Tumor-Detection-MRI-using-YOLO-v
 Adapted from: https://gist.github.com/melek227/80db855e32a7908fa8ba15957d146b28
 
 ### YOLOv8
-Learning references: 
+Learning resourses: 
 - https://learnopencv.com/train-yolov8-on-custom-dataset/
 - https://docs.ultralytics.com/usage/cfg/
 
