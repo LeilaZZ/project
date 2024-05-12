@@ -77,7 +77,7 @@ To train and validate the model:
   - Try_DETR.ipynb: tried to apply DETR to our project, but failed due to the requirement of a COCO dataset
 
 ### Kexuan Li
-- DataAugmentation.ipynd: code to generate the dataset_augmented zip
+- DataAugmentation.ipynb: code to generate the dataset_augmented zip
 
 ## Dataset
 ### Baseline dataset
@@ -99,6 +99,6 @@ Learning resourses:
 - https://docs.ultralytics.com/usage/cfg/
 
 ### Data augmentation (copy-and-paste)
-
+https://github.com/aiLiwensong/Copy-Paste-for-Semantic-Segmentation
 
 
