@@ -99,6 +99,6 @@ Learning resourses:
 - https://docs.ultralytics.com/usage/cfg/
 
 ### Data augmentation (copy-and-paste)
-https://github.com/aiLiwensong/Copy-Paste-for-Semantic-Segmentation
+Adapted from: https://github.com/aiLiwensong/Copy-Paste-for-Semantic-Segmentation
 
 
